@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
+    "username": "dumbways",
+    "password": "Hd6gvXbd!",
     "database": "dumbflix",
-    "host": "127.0.0.1",
+    "host": "10.0.2.41",
     "dialect": "mysql",
     "operatorsAliases": false
   },
