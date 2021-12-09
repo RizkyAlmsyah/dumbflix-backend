@@ -4,6 +4,6 @@ COPY . .
 COPY .env.example .env
 RUN npm install
 RUN npm install -g sequelize-cli
-RUN sequelize db: migrate
+RUN sequelize-cli db:migrate 
 EXPOSE 5000
 CMD ["npm", "start"]
