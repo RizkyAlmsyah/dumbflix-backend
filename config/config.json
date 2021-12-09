@@ -3,7 +3,7 @@
     "username": "dumbways",
     "password": "Hd6gvXbd!",
     "database": "dumbflix",
-    "host": "10.0.2.41",
+    "host": "10.0.2.133",
     "dialect": "mysql",
     "operatorsAliases": false
   },
