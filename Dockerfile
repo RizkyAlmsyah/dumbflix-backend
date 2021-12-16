@@ -7,6 +7,7 @@ ENV NODE_ENV production
 
 RUN npm install
 RUN npm install serve
+RUN npm install pg --save
 RUN npm install -g sequelize-cli
 RUN npm build
 RUN sequelize-cli db:migrate 
