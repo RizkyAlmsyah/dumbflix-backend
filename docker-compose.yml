@@ -1,0 +1,12 @@
+version: '3'
+services:
+ be1:
+  container_name: backend1
+  image: dewabt8/backend
+  ports:
+   - 5000:5000
+ be2:
+  container_name: backend2
+  image: dewabt8/backend
+  ports:
+  - 5001:5000
