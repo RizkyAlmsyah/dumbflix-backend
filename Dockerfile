@@ -2,7 +2,7 @@ FROM node:10
 WORKDIR /usr/src/app
 COPY . .
 
-ENV DATABASE_URL postgres://dumbways:Hd6gvXbd!@10.0.227/dumbflix
+ENV DATABASE_URL postgres://dumbways:Hd6gvXbd!@10.0.2.227/dumbflix
 ENV NODE_ENV production
 
 RUN npm install
